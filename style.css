@@ -1,0 +1,121 @@
+.topnav{
+    background-color: #333;
+  overflow: hidden;
+  padding: 26px 16px;
+  color: aliceblue;
+}
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: red;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+ 
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+  .course-name{
+    
+    border: blue ;
+    border-width: 5px;
+    margin-left: 10px;
+  }
+  .Instructor{
+    margin-left: 450px;
+    margin-top: 80px;
+    font-size: 30px;
+    font-style: italic;
+  }
+  .roundedimg{
+    border-radius: 50%;
+    margin-left: 510px;
+    margin-top: 30px;
+    size: 100px;
+  }
+  .color{
+    color: #f1f1f1;
+  }
+  .Contact{
+    margin-left: 400px;
+    margin-top: 100px;
+    font-size: 30px;
+  }
+  .start{
+    margin-left: 400px;
+    margin-top: 100px;
+
+  }
+  .course-curriculum{
+    font-size: 30px;
+  }
+  .nextlesson{
+    background-color: #32a8a2;
+    border: #333;
+    border-radius: 8px;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  }
+  .intro{
+    margin-left:15px;
+  }
+  .introvscode{
+    margin-left: 15px;
+  }
+.introbtn1{
+  background-color: #f2fafa;
+  font-size: 20px;
+  color: #3c4242;
+  border: none;
+  padding: 15px 15px;
+}
+@media screen and (max-width: 400px) {
+  .start{
+    margin-left: 20px;
+  }
+  .introbuttons{
+    margin-left: 20px;
+  }
+}
